@@ -1,0 +1,21 @@
+{
+  "name": "scrapper-promo-bni",
+  "version": "1.0.0",
+  "description": "scrapper for from bni",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Faisal Morensya",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "request": "^2.76.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
