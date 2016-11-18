@@ -100,7 +100,7 @@
           "validUntil": "valid until 31 December 2016",
           "promoUrl": "https://m.bnizona.com/promo/view/26/1401"
         }
-  }
+  ]
 }
 ```
 
