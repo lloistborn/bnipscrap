@@ -37,16 +37,17 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{
-      "categories": [
-      {
-        "category": "Fashion",
-        "url": "https://m.bnizona.com/promo/index/16"
-      },
-      {
-        "category": "Groceries",
-        "url": "https://m.bnizona.com/promo/index/17"
-      } ... ,`
+    **Content:** 
+```json
+{
+  "categories": [
+    {
+      "category": "Fashion",
+      "url": "https://m.bnizona.com/promo/index/16"
+    }
+  ]
+}
+```
  
 * **Error Response:**
 
@@ -76,11 +77,15 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `"promoPerCategory": [
-    {
-      "category": "Miscellaneous",
-      "url": "https://m.bnizona.com/promo/index/26",
-      "promo": [
+    **Content:** 
+    
+```json
+{
+  "promoPerCategory": [
+      {
+        "category": "Miscellaneous",
+        "url": "https://m.bnizona.com/promo/index/26",
+        "promo": [
         {
           "imageUrl": "https://m.bnizona.com/files/b1a4b4c0bde16e320515337ac97d45f1.jpg",
           "merchantName": "Aksen Belanja ",
@@ -94,7 +99,11 @@
           "promoTitle": "Miliki Segera Modem XL Go dan XL Home dengan Kartu Kredit BNI",
           "validUntil": "valid until 31 December 2016",
           "promoUrl": "https://m.bnizona.com/promo/view/26/1401"
-        }, ... ,`
+        }
+  }
+}
+```
+
  
 * **Error Response:**
 
